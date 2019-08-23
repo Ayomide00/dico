@@ -1,0 +1,118 @@
+{
+    "head": {},
+    "def": [
+        {
+            "text": "slaughter",
+            "pos": "noun",
+            "ts": "ˈslɔːtə",
+            "tr": [
+                {
+                    "text": "kill",
+                    "pos": "verb",
+                    "syn": [
+                        {
+                            "text": "slay",
+                            "pos": "verb"
+                        },
+                        {
+                            "text": "pin up",
+                            "pos": "verb"
+                        }
+                    ]
+                },
+                {
+                    "text": "murder",
+                    "pos": "noun",
+                    "syn": [
+                        {
+                            "text": "homicide",
+                            "pos": "noun"
+                        },
+                        {
+                            "text": "assassination",
+                            "pos": "noun"
+                        },
+                        {
+                            "text": "killing",
+                            "pos": "noun"
+                        },
+                        {
+                            "text": "hammer",
+                            "pos": "noun"
+                        },
+                        {
+                            "text": "working faces",
+                            "pos": "noun"
+                        },
+                        {
+                            "text": "death",
+                            "pos": "noun"
+                        }
+                    ]
+                },
+                {
+                    "text": "carnage",
+                    "pos": "noun",
+                    "syn": [
+                        {
+                            "text": "butchery",
+                            "pos": "noun"
+                        },
+                        {
+                            "text": "abattoir",
+                            "pos": "noun"
+                        },
+                        {
+                            "text": "wholesale slaughter",
+                            "pos": "noun"
+                        },
+                        {
+                            "text": "massacre",
+                            "pos": "noun"
+                        },
+                        {
+                            "text": "mass murder",
+                            "pos": "noun"
+                        },
+                        {
+                            "text": "butcher",
+                            "pos": "noun"
+                        }
+                    ]
+                },
+                {
+                    "text": "lethal",
+                    "pos": "adjective"
+                },
+                {
+                    "text": "cut out",
+                    "pos": "verb"
+                },
+                {
+                    "text": "bloodbath",
+                    "pos": "noun",
+                    "syn": [
+                        {
+                            "text": "bloodshed",
+                            "pos": "noun"
+                        },
+                        {
+                            "text": "holocaust",
+                            "pos": "noun"
+                        }
+                    ]
+                },
+                {
+                    "text": "drubbing",
+                    "pos": "noun",
+                    "syn": [
+                        {
+                            "text": "thrashing",
+                            "pos": "noun"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,136 @@
+{
+  "head": {},
+  "def": [
+    {
+      "text": "time",
+      "pos": "noun",
+      "ts": "taɪm",
+      "tr": [
+        {
+          "text": "while",
+          "pos": "conjunction",
+          "syn": [
+            {
+              "text": "when",
+              "pos": "conjunction"
+            }
+          ]
+        },
+        {
+          "text": "occasion",
+          "pos": "noun",
+          "syn": [
+            {
+              "text": "moment",
+              "pos": "noun"
+            },
+            {
+              "text": "day",
+              "pos": "noun"
+            },
+            {
+              "text": "date",
+              "pos": "noun"
+            }
+          ]
+        },
+        {
+          "text": "travel time",
+          "pos": "noun",
+          "syn": [
+            {
+              "text": "high time",
+              "pos": "noun"
+            },
+            {
+              "text": "times",
+              "pos": "noun"
+            }
+          ]
+        },
+        {
+          "text": "age",
+          "pos": "noun",
+          "syn": [
+            {
+              "text": "era",
+              "pos": "noun"
+            },
+            {
+              "text": "epoch",
+              "pos": "noun"
+            }
+          ]
+        },
+        {
+          "text": "hour",
+          "pos": "noun",
+          "syn": [
+            {
+              "text": "clock",
+              "pos": "noun"
+            }
+          ]
+        },
+        {
+          "text": "duration",
+          "pos": "noun",
+          "syn": [
+            {
+              "text": "period",
+              "pos": "noun"
+            },
+            {
+              "text": "lead time",
+              "pos": "noun"
+            },
+            {
+              "text": "time limit",
+              "pos": "noun"
+            },
+            {
+              "text": "lifetime",
+              "pos": "noun"
+            },
+            {
+              "text": "life",
+              "pos": "noun"
+            },
+            {
+              "text": "time slot",
+              "pos": "noun"
+            },
+            {
+              "text": "life span",
+              "pos": "noun"
+            },
+            {
+              "text": "experience",
+              "pos": "noun"
+            },
+            {
+              "text": "continuance",
+              "pos": "noun"
+            },
+            {
+              "text": "sentence",
+              "pos": "noun"
+            },
+            {
+              "text": "adventure",
+              "pos": "noun"
+            }
+          ]
+        },
+        {
+          "text": "down time",
+          "pos": "adverb"
+        },
+        {
+          "text": "run",
+          "pos": "verb"
+        }
+      ]
+    }
+  ]
+}
