@@ -6,7 +6,7 @@ document.querySelector("#search").addEventListener("click", function(e) {
   const dicoKey = "e26e2dba-1730-4b93-ba44-dd9b6b49e2ee";
   const yandexKey = " dict.1.1.20190820T061709Z.60929ab24ced1a28.6203fb52ac5eeb2ea6f4b797250ca386b468fcab";
 
-  let dicoUrl = `http://www.dictionaryapi.com/api/v3/references/thesaurus/json/${word.toLowerCase()}?key=${dicoKey}`;
+  let dicoUrl = `https://www.dictionaryapi.com/api/v3/references/thesaurus/json/${word.toLowerCase()}?key=${dicoKey}`;
   let yandexUrl = ` https://dictionary.yandex.net/api/v1/dicservice.json/lookup?key=${yandexKey}&lang=en-en&text=${word.toLowerCase()}`;
 
   fetch(yandexUrl)
