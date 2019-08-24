@@ -3,11 +3,14 @@ document.querySelector("#search").addEventListener("click", function(e) {
   let word = document.querySelector("#input").value;
 
   document.querySelector("#top").innerHTML = word;
-  const key = "e26e2dba-1730-4b93-ba44-dd9b6b49e2ee";
+  const dicoKey = "e26e2dba-1730-4b93-ba44-dd9b6b49e2ee";
+  const yandexKey = " dict.1.1.20190820T061709Z.60929ab24ced1a28.6203fb52ac5eeb2ea6f4b797250ca386b468fcab";
 
-  let url = `www.dictionaryapi.com/api/v3/references/thesaurus/json/${word.toLowerCase()}?key=${key}`;
+  let dicoUrl = `http://www.dictionaryapi.com/api/v3/references/thesaurus/json/${word.toLowerCase()}?key=${dicoKey}`;
+  let yandexUrl = ` https://dictionary.yandex.net/api/v1/dicservice.json/lookup?key=${yandexKey}&lang=en-en&text=${word.toLowerCase()}`;
 
-  fetch(url)
+
+  fetch(dicoUrl)
     .then(function(res) {
       return res.json();
     })
@@ -65,5 +68,18 @@ document.querySelector("#search").addEventListener("click", function(e) {
     .catch(function(err) {
       console.log(err);
     });
+
+    fetch(yandexUrl)
+    .then(function(res){
+      return res.json()
+    })
+    .then(function(data){
+      document.querySelector("#top").innerHTML += `  /${data.def[0].ts}/`;
+    })
+    .catch(function(err){
+      console.log(err)
+    })
+  
+
   e.preventDefault();
 });
