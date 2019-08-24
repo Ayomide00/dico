@@ -9,6 +9,17 @@ document.querySelector("#search").addEventListener("click", function(e) {
   let dicoUrl = `http://www.dictionaryapi.com/api/v3/references/thesaurus/json/${word.toLowerCase()}?key=${dicoKey}`;
   let yandexUrl = ` https://dictionary.yandex.net/api/v1/dicservice.json/lookup?key=${yandexKey}&lang=en-en&text=${word.toLowerCase()}`;
 
+  fetch(yandexUrl)
+    .then(function(res){
+      return res.json()
+    })
+    .then(function(data){
+      document.querySelector("#top").innerHTML += `  /${data.def[0].ts}/`;
+    })
+    .catch(function(err){
+      console.log(err)
+    })
+  
 
   fetch(dicoUrl)
     .then(function(res) {
@@ -69,17 +80,7 @@ document.querySelector("#search").addEventListener("click", function(e) {
       console.log(err);
     });
 
-    fetch(yandexUrl)
-    .then(function(res){
-      return res.json()
-    })
-    .then(function(data){
-      document.querySelector("#top").innerHTML += `  /${data.def[0].ts}/`;
-    })
-    .catch(function(err){
-      console.log(err)
-    })
-  
+    
 
   e.preventDefault();
 });
