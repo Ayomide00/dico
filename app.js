@@ -6,7 +6,7 @@ document.querySelector("#search").addEventListener("click", function(e) {
 
   let url = `http://www.dictionaryapi.com/api/v3/references/thesaurus/json/${word.toLowerCase()}?key=${key}`;
 
-  fetch("love.json")
+  fetch(url)
     .then(function(res) {
       return res.json();
     })
