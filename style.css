@@ -1,8 +1,29 @@
-#gap{
+#gap {
     width: 72%;
     opacity: 0;
 }
-.common{
+
+.common {
     max-width: 30%;
     text-align: center;
+}
+
+h4 {
+    text-transform: capitalize;
+}
+
+h5 {
+    font-size: .5rem;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
 }
