@@ -1,4 +1,5 @@
 document.querySelector("#search").addEventListener("click", function(e) {
+    document.querySelector('#meaning').innerHTML = '';
   let word = document.querySelector("#input").value;
 
   document.querySelector("#top").innerHTML = word;
