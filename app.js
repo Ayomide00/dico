@@ -5,7 +5,7 @@ document.querySelector("#search").addEventListener("click", function(e) {
   document.querySelector("#top").innerHTML = word;
   const key = "e26e2dba-1730-4b93-ba44-dd9b6b49e2ee";
 
-  let url = `http://www.dictionaryapi.com/api/v3/references/thesaurus/json/${word.toLowerCase()}?key=${key}`;
+  let url = `www.dictionaryapi.com/api/v3/references/thesaurus/json/${word.toLowerCase()}?key=${key}`;
 
   fetch(url)
     .then(function(res) {
